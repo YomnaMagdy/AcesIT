@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ACES</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  border-radius: 50%;
+}
+</style>
+<style>
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 40%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="side">
+  <div class="container">  
+  <div class="mx-auto" style="width: 200px;">
+</div>
+  <img src="image.PNG" class="center"  class="rounded-circle"  alt="ACES logo" width="304" height="236">  
+</div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<div class="container">
+  
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3mpyT2iNafw"></iframe>
+  </div>
+      <h2>About Me</h2>
+      <p>ACES stands for the Annual Conference for Engineering Students. ACES is a leading student organization in the engineering community, it was first founded in 2004 in Faculty of Engineering Ain Shams University, to be the first student activity in the governmental faculties in Egypt.</p>
+      <p>Since then, ACES has started its journey aiming to have a community of influencial leaders; who can actually compete in the job market and stand out of the crowd by giving them the opportunity to increase their capabilities technically as well as non-technically and unleash their hidden potentials.</p>
+      <p>Doing our best to pay forward such a Life Changing Experience and have our impact on the surrounding society hoping ACES Journey will never come to an end.</p>
+      <h2>Mission</h2>
+      <p>Raising the capabilities of the engineering community through technical, nontechnical and personal approaches delivered through a real life exposure.</p>
+      <br>
+      <h2>Vision</h2>
+      <p>Creating a community of influential leaders through technical and non-technical exposure.</p>
+      
+  </div>
+</div>
+</div>
+</body>
+</html>

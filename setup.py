@@ -4,7 +4,7 @@ import sys
 if len(sys.argv) == 1:
     sys.argv.append("py2exe")
 setup( options = {"py2exe": {"includes": ["tkinter"]}},
-       console=["webcrawler.py"])
+       console=["reg.py"])
 
 
 #Hello guyz this video is gonna show u how to create an exe using py2exe for tkinter program
